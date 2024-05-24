@@ -1,4 +1,4 @@
-Hi, I'm Ognjen, also known as anItalianGeek. I'm currently a student with a strong passion for software and web development.
+Hi, I'm Ognjen, also known as anItalianGeek. I'm currently a student (still in high school) with a strong passion for software and web development.
 
 Programming Languages: Proficient in Java and C; familiar with C#. Comfortable with HTML, CSS, and JavaScript for front-end development. 
 I also have strong proficiency in Assembly, specifically with the 8086 architecture, while i am not confident with other architectures just yet...
