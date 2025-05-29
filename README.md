@@ -2,31 +2,8 @@
 <h3 align="center">💻 High school student with a strong passion for software & web development</h3>
 
 <p align="center">
-  <svg width="400" height="100" viewBox="0 0 400 100" xmlns="http://www.w3.org/2000/svg">
-    <!-- Background -->
-    <rect width="100%" height="100%" fill="#222831" />
-    
-    <!-- Define pastel rainbow gradient -->
-    <defs>
-      <linearGradient id="rainbow" x1="0%" y1="0%" x2="100%" y2="0%">
-        <stop offset="0%" stop-color="#FF9AA2" />
-        <stop offset="20%" stop-color="#FFB7B2" />
-        <stop offset="40%" stop-color="#FFDAC1" />
-        <stop offset="60%" stop-color="#E2F0CB" />
-        <stop offset="80%" stop-color="#B5EAEA" />
-        <stop offset="100%" stop-color="#C7CEEA" />
-        <animate attributeName="x1" values="0%;100%;0%" dur="6s" repeatCount="indefinite" />
-        <animate attributeName="x2" values="100%;0%;100%" dur="6s" repeatCount="indefinite" />
-      </linearGradient>
-    </defs>
-    
-    <!-- Animated text with gradient fill -->
-    <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
-          font-family="Segoe UI, Arial, sans-serif" font-size="36" fill="url(#rainbow)">
-      anItalianGeek
-      <animate attributeName="opacity" from="0" to="1" dur="2s" fill="freeze" />
-    </text>
-  </svg>
+  <!-- Badge animato: GIF generata da SVG -->
+  <img src="anitaliangeek.gif" alt="anItalianGeek badge" width="400" />
 </p>
 
 ---
