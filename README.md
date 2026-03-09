@@ -1,5 +1,5 @@
 <h1 align="center">👋 Hi, I'm Ognjen Vasic</h1>
-<h3 align="center">💻 High school student with a strong passion for software & web development</h3>
+<h3 align="center">💻 Uni student and Software Dev with a strong passion for coding and development!</h3>
 
 <p align="center">
   <!-- Badge animato: GIF generata da SVG -->
