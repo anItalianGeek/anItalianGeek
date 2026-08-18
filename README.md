@@ -1,6 +1,5 @@
-# Ognjen Vasic 
+![anItalianGeek](./anItalianGeek.svg)
 
-## Software Engineer @ Sorgetech · Electronic and Computer Engineering @ University of Ferrara
 I work where systems stop agreeing with each other.
 
 Two platforms. Different assumptions. Different APIs. Probably different decades.
