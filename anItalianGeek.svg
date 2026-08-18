@@ -28,23 +28,25 @@
     @keyframes type { from { opacity: 0 } to { opacity: 1 } }
     @keyframes hl   { to   { fill: var(--tint) } }
 
-    /* the cursor advances one cell per keystroke, then starts blinking */
+    /* the cursor waits, advances one cell per keystroke, then blinks */
     .cursor {
       fill: #F5EAD6;
-      animation: advance .975s steps(13, jump-start) .15s forwards,
-                 blink 1.05s steps(1) 1.15s infinite;
+      animation: wake .01s linear 1.35s backwards,
+                 advance .975s steps(13, jump-start) 1.65s forwards,
+                 blink 1.05s steps(1) 2.65s infinite;
     }
+    @keyframes wake    { from { opacity: 0 } to { opacity: 1 } }
     @keyframes advance { to { transform: translateX(442px) } }
     @keyframes blink   { 0%,52% { opacity: 1 } 53%,100% { opacity: 0 } }
 
-    .g1      { animation: fade .4s ease-out .05s backwards; }
-    .g2, .cm { animation: fade .5s ease-out 2.25s backwards; }
+    .g1      { animation: fade .4s ease-out 1.05s backwards; }
+    .g2, .cm { animation: fade .5s ease-out 3.75s backwards; }
     @keyframes fade { from { opacity: 0 } to { opacity: 1 } }
 
     @media (prefers-reduced-motion: reduce) {
       .c { animation: none }
       .s1 { fill: #7FB8C9 } .s2 { fill: #F0A93C } .s3 { fill: #D98B7E }
-      .cursor { animation: none; transform: translateX(442px) }
+      .cursor { animation: none; opacity: 1; transform: translateX(442px) }
       .g1, .g2, .cm { animation: none }
     }
   </style>
@@ -53,7 +55,7 @@
 
   <g class="mono">
     <text class="gutter g1" x="40" y="106">1</text>
-    <text class="name" y="106"><tspan class="c s1" x="88" style="animation-delay:0.15s,1.6s">a</tspan><tspan class="c s1" x="122" style="animation-delay:0.225s,1.635s">n</tspan><tspan class="c s2" x="156" style="animation-delay:0.3s,1.67s">I</tspan><tspan class="c s2" x="190" style="animation-delay:0.375s,1.705s">t</tspan><tspan class="c s2" x="224" style="animation-delay:0.45s,1.74s">a</tspan><tspan class="c s2" x="258" style="animation-delay:0.525s,1.775s">l</tspan><tspan class="c s2" x="292" style="animation-delay:0.6s,1.81s">i</tspan><tspan class="c s2" x="326" style="animation-delay:0.675s,1.845s">a</tspan><tspan class="c s2" x="360" style="animation-delay:0.75s,1.88s">n</tspan><tspan class="c s3" x="394" style="animation-delay:0.825s,1.915s">G</tspan><tspan class="c s3" x="428" style="animation-delay:0.9s,1.95s">e</tspan><tspan class="c s3" x="462" style="animation-delay:0.975s,1.985s">e</tspan><tspan class="c s3" x="496" style="animation-delay:1.05s,2.02s">k</tspan></text>
+    <text class="name" y="106"><tspan class="c s1" x="88" style="animation-delay:1.65s,3.1s">a</tspan><tspan class="c s1" x="122" style="animation-delay:1.725s,3.135s">n</tspan><tspan class="c s2" x="156" style="animation-delay:1.8s,3.17s">I</tspan><tspan class="c s2" x="190" style="animation-delay:1.875s,3.205s">t</tspan><tspan class="c s2" x="224" style="animation-delay:1.95s,3.24s">a</tspan><tspan class="c s2" x="258" style="animation-delay:2.025s,3.275s">l</tspan><tspan class="c s2" x="292" style="animation-delay:2.1s,3.31s">i</tspan><tspan class="c s2" x="326" style="animation-delay:2.175s,3.345s">a</tspan><tspan class="c s2" x="360" style="animation-delay:2.25s,3.38s">n</tspan><tspan class="c s3" x="394" style="animation-delay:2.325s,3.415s">G</tspan><tspan class="c s3" x="428" style="animation-delay:2.4s,3.45s">e</tspan><tspan class="c s3" x="462" style="animation-delay:2.475s,3.485s">e</tspan><tspan class="c s3" x="496" style="animation-delay:2.55s,3.52s">k</tspan></text>
 
     <rect class="cursor" x="88" y="68" width="26" height="44" rx="1"/>
 
