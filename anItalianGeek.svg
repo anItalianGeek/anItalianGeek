@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 200" width="880" height="200" role="img" aria-label="anItalianGeek — Ognjen Vasic, software engineer at Sorgetech">
+  <title>anItalianGeek — Ognjen Vasic</title>
+
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#171208"/>
+      <stop offset="100%" stop-color="#0D0A06"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, "SF Mono", "Cascadia Mono", "DejaVu Sans Mono", Menlo, Consolas, monospace; }
+
+    .gutter  { fill: #46381F; font-size: 18px; }
+    .name    { font-size: 56px; letter-spacing: .01em; }
+    .comment { fill: #6E7B5E; font-size: 18px; }
+
+    /* every character starts dim, as if the highlighter hasn't loaded yet */
+    .c {
+      fill: #6B5F4E;
+      opacity: 1;
+      animation: type .01s linear backwards, hl .45s ease-out forwards;
+    }
+    .s1 { --tint: #7FB8C9; }
+    .s2 { --tint: #F0A93C; }
+    .s3 { --tint: #D98B7E; }
+
+    @keyframes type { from { opacity: 0 } to { opacity: 1 } }
+    @keyframes hl   { to   { fill: var(--tint) } }
+
+    .cursor  { fill: #F0A93C; animation: blink 1.05s steps(1) infinite; animation-delay: 1.0s; }
+    .g2, .cm { opacity: 1; animation: fade .5s ease-out backwards; animation-delay: 2.15s; }
+    .g1      { opacity: 1; animation: fade .4s ease-out backwards; animation-delay: .05s; }
+
+    @keyframes blink { 0%,52% { opacity: 1 } 53%,100% { opacity: 0 } }
+    @keyframes fade  { from { opacity: 0 } to { opacity: 1 } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .c { animation: none; }
+      .s1 { fill: #7FB8C9 } .s2 { fill: #F0A93C } .s3 { fill: #D98B7E }
+      .cursor, .g1, .g2, .cm { animation: none; opacity: 1; }
+    }
+  </style>
+
+  <rect width="880" height="200" rx="10" fill="url(#bg)"/>
+
+  <g class="mono">
+    <text class="gutter g1" x="40" y="106">1</text>
+    <text class="name" x="88" y="106"><tspan class="c s1" style="animation-delay:0.15s,1.5s">a</tspan><tspan class="c s1" style="animation-delay:0.215s,1.535s">n</tspan><tspan class="c s2" style="animation-delay:0.28s,1.57s">I</tspan><tspan class="c s2" style="animation-delay:0.345s,1.605s">t</tspan><tspan class="c s2" style="animation-delay:0.41s,1.64s">a</tspan><tspan class="c s2" style="animation-delay:0.475s,1.675s">l</tspan><tspan class="c s2" style="animation-delay:0.54s,1.71s">i</tspan><tspan class="c s2" style="animation-delay:0.605s,1.745s">a</tspan><tspan class="c s2" style="animation-delay:0.67s,1.78s">n</tspan><tspan class="c s3" style="animation-delay:0.735s,1.815s">G</tspan><tspan class="c s3" style="animation-delay:0.8s,1.85s">e</tspan><tspan class="c s3" style="animation-delay:0.865s,1.885s">e</tspan><tspan class="c s3" style="animation-delay:0.93s,1.92s">k</tspan></text>
+    <rect class="cursor" x="524" y="72" width="26" height="42" rx="1"/>
+
+    <text class="gutter g2" x="40" y="158">2</text>
+    <text class="comment cm" x="88" y="158">// Ognjen Vasic · software engineer @ Sorgetech</text>
+  </g>
+</svg>
