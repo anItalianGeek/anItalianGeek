@@ -1,6 +1,6 @@
-# Ognjen Vasic
+# Ognjen Vasic 
 
-**Software Engineer @ Sorgetech** · Computer Engineering @ University of Ferrara
+## Software Engineer @ Sorgetech · Computer Engineering @ University of Ferrara
 
 I work where systems stop agreeing with each other.
 
