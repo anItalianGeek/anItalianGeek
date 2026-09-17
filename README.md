@@ -34,7 +34,7 @@ NLP pipelines, MCP servers and LLM-powered automation connected to software peop
 
 > Repetitive task? Automate it.
 > Fragile system? Redesign it.
-> Query takes four minutes? We're not shipping that.
+> Query takes three business days? We're not shipping that.
 
 ---
 
@@ -143,6 +143,9 @@ Enterprise systems, production databases, integrations, legacy constraints, real
 Most of what I work on today lives in the section at the top of this page.
 
 The repositories below are where I learned how to get here.
+
+
+### And now? What's next? Well... you shall find out very soon!
 
 ---
 
