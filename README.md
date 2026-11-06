@@ -32,9 +32,21 @@ MySQL and SQL Server, including hierarchical datasets and queries where *“it o
 **Applied AI**
 NLP pipelines, MCP servers and LLM-powered automation connected to software people actually use at work.
 
-> Repetitive task? Automate it.
-> Fragile system? Redesign it.
-> Query takes three business days? We're not shipping that.
+> Repetitive task? Automate when it saves more work than it creates.
+> Fragile system? Understand the constraints before changing it.
+> Query takes three business days? Find out why, then fix the bottleneck.
+
+---
+
+## `selected_projects()`
+
+A short selection of representative repositories before the full timeline:
+
+- [**ReviewHub API**](https://github.com/anItalianGeek/reviewhub_restAPI) — High-school tutoring backend in Java & Spring Boot with MariaDB and a student/teacher/admin domain; deployed on a Raspberry Pi with TLS and systemd during the school project.
+- [**PostItter**](https://github.com/anItalianGeek/PostItter) & [**PostItter API**](https://github.com/anItalianGeek/PostItter_RESTfulAPI) — Real-time social prototype built for a 3-month challenge after my Vienna internship (Angular SPA, ASP.NET Core backend with custom signed session tokens, and SignalR hubs).
+- [**mazeSolver-multiThread**](https://github.com/anItalianGeek/mazeSolver-multiThread) — Concurrent maze exploration in Java: an experiment with threads, semaphores, and live Swing rendering.
+- [**huffman-simple**](https://github.com/anItalianGeek/huffman-simple) — Educational Huffman encoder/decoder written in 8086 Assembly, with compile-time frequencies, a fixed 6-character alphabet, and explicit absence of bit packing.
+- [**jpictureslot**](https://github.com/anItalianGeek/jpictureslot) — Lightweight Java Swing image display component providing C#-style picture-box scaling modes, reused across subsequent desktop projects.
 
 ---
 
@@ -54,7 +66,7 @@ Apparently that's how I learn.
 No OOP yet. No data structures course. Just enough knowledge to become dangerous.
 
 * [**huffman-simple**](https://github.com/anItalianGeek/huffman-simple)
-  Huffman coding in **8086 assembly**: tree construction, code table generation, encoding and decoding.
+  Huffman coding in **8086 assembly**: tree construction, code table generation, encoding and decoding for a fixed 6-character alphabet with compile-time frequencies (no bit packing: 1 byte per bit).
 
   I had already implemented it in C# for an assignment. Then I rewrote it in assembly for the highly scientific reason of *“I wonder if I can.”*
 
@@ -105,7 +117,7 @@ So I did.
   Angular frontend with timeline, search, notifications and real-time chat.
 
 * [**PostItter API**](https://github.com/anItalianGeek/PostItter_RESTfulAPI)
-  ASP.NET Core backend with token authentication and SignalR hubs.
+  ASP.NET Core backend with custom signed session tokens and SignalR hubs.
 
 This was the point where software stopped feeling like isolated exercises and started feeling like systems.
 
@@ -115,7 +127,7 @@ This was the point where software stopped feeling like isolated exercises and st
 
 A school assignment became the largest project I'd built up to that point.
 
-Then my teachers made me deploy it properly.
+Then my teachers made me deploy it properly:
 
 Raspberry Pi.
 Real domain.
@@ -126,26 +138,28 @@ Automatic recovery after reboot.
 
 Suddenly `localhost` wasn't a deployment strategy.
 
+That was the school deployment from this part of the story.
+
 * [**ReviewHub API**](https://github.com/anItalianGeek/reviewhub_restAPI)
-  Spring Boot backend with JWT authentication through Spring Security, role-based access and JPA persistence on MariaDB.
+  Spring Boot backend with JPA persistence on MariaDB and JWT authentication. The school implementation and its authorization limits are described in the README.
 
 * [**ReviewHub**](https://github.com/anItalianGeek/reviewhub)
   Angular frontend for bookings, rooms, subjects and administration.
+
+* [**digitML**](https://github.com/anItalianGeek/digitML)
+  School group project for open-day demonstrations of handwritten digit and letter recognition. My listed role was **Project manager**; the README credits the teammates responsible for the ML model, API, web app, and Android client.
 
 ---
 
 ### July 2025 — Sorgetech
 
-Then the toy problems ended.
+Then the context shifted from classroom assignments to enterprise systems.
 
-Enterprise systems, production databases, integrations, legacy constraints, real users and real consequences.
+Production databases, multi-platform integrations, legacy constraints, real users, and real operational consequences.
 
 Most of what I work on today lives in the section at the top of this page.
 
 The repositories below are where I learned how to get here.
-
-
-### And now? What's next? Well... you shall find out very soon!
 
 ---
 
