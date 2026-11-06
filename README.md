@@ -16,9 +16,10 @@ I like software that survives more than the happy path: bad data, weird users, l
 ## `what_i_do()`
 
 At Sorgetech, I work on enterprise software for manufacturing, retail and public-sector clients.
+Alongside work, I study Electronic and Computer Engineering at the University of Ferrara.
 
 **Backend engineering**
-Java, Spring Boot, Jakarta EE, Tomcat. Multi-tenant applications, authentication, authorization, RBAC, APIs and business logic that inevitably becomes more complicated than the diagram suggested.
+Java, Spring Boot, Jakarta EE, Tomcat. Multi-tenant portals, dashboards, production scheduling, authentication, authorization, RBAC, APIs and business logic that inevitably becomes more complicated than the diagram suggested.
 
 **Systems integration**
 Connecting platforms that were absolutely not designed with each other in mind. REST APIs, enterprise software, custom services, data synchronization and automation.
@@ -27,10 +28,10 @@ Connecting platforms that were absolutely not designed with each other in mind. 
 Extending and integrating SysAid: custom reporting, workflows, APIs and tooling around real operational processes.
 
 **SQL performance**
-MySQL and SQL Server, including hierarchical datasets and queries where *“it only takes a few minutes”* is considered a bug.
+MySQL and SQL Server, including hierarchical datasets and query optimization. On one management report, restructuring the filters brought execution time from several minutes down to a few seconds.
 
 **Applied AI**
-NLP pipelines, MCP servers and LLM-powered automation connected to software people actually use at work.
+NLP pipelines for personal data anonymization in Italian, MCP servers and LLM-powered automation integrated into enterprise software.
 
 > Repetitive task? Automate when it saves more work than it creates.
 > Fragile system? Understand the constraints before changing it.
@@ -40,10 +41,12 @@ NLP pipelines, MCP servers and LLM-powered automation connected to software peop
 
 ## `selected_projects()`
 
-A short selection of representative repositories before the full timeline:
+The code projects below form my learning archive: school assignments and personal experiments, each with its own purpose and constraints. I keep them for reference, without active development or maintenance. My current professional focus is described above.
 
-- [**ReviewHub API**](https://github.com/anItalianGeek/reviewhub_restAPI) — High-school tutoring backend in Java & Spring Boot with MariaDB and a student/teacher/admin domain; deployed on a Raspberry Pi with TLS and systemd during the school project.
-- [**PostItter**](https://github.com/anItalianGeek/PostItter) & [**PostItter API**](https://github.com/anItalianGeek/PostItter_RESTfulAPI) — Real-time social prototype built for a 3-month challenge after my Vienna internship (Angular SPA, ASP.NET Core backend with custom signed session tokens, and SignalR hubs).
+A short selection before the full timeline:
+
+- [**ReviewHub API**](https://github.com/anItalianGeek/reviewhub_restAPI) — High-school tutoring backend in Java & Spring Boot with MariaDB; deployed exclusively within the school environment on a Raspberry Pi with TLS and systemd during the school project.
+- [**PostItter**](https://github.com/anItalianGeek/PostItter) & [**PostItter API**](https://github.com/anItalianGeek/PostItter_RESTfulAPI) — Real-time social prototype built for a personal 3-month challenge following my Vienna internship (Angular SPA, ASP.NET Core backend with custom signed session tokens, and SignalR hubs).
 - [**mazeSolver-multiThread**](https://github.com/anItalianGeek/mazeSolver-multiThread) — Concurrent maze exploration in Java: an experiment with threads, semaphores, and live Swing rendering.
 - [**huffman-simple**](https://github.com/anItalianGeek/huffman-simple) — Educational Huffman encoder/decoder written in 8086 Assembly, with compile-time frequencies, a fixed 6-character alphabet, and explicit absence of bit packing.
 - [**jpictureslot**](https://github.com/anItalianGeek/jpictureslot) — Lightweight Java Swing image display component providing C#-style picture-box scaling modes, reused across subsequent desktop projects.
@@ -103,9 +106,9 @@ Turns out adding abstractions creates entirely new ways to make bugs.
 
 ### Summer 2024 — browser acquired
 
-I spent a month interning at **CS nine Business Solutions in Vienna**.
+I spent a month interning at **CS nine Business Solutions in Vienna** (June 2024).
 
-Before I left, they gave me a challenge:
+After the internship, I worked on the three-month personal challenge they'd set me:
 
 > Build a functioning social platform.
 > Three months.
@@ -127,10 +130,10 @@ This was the point where software stopped feeling like isolated exercises and st
 
 A school assignment became the largest project I'd built up to that point.
 
-Then my teachers made me deploy it properly:
+Then my teachers had me deploy it exclusively within the school environment:
 
 Raspberry Pi.
-Real domain.
+School domain.
 TLS.
 Database.
 Linux services.
@@ -141,7 +144,7 @@ Suddenly `localhost` wasn't a deployment strategy.
 That was the school deployment from this part of the story.
 
 * [**ReviewHub API**](https://github.com/anItalianGeek/reviewhub_restAPI)
-  Spring Boot backend with JPA persistence on MariaDB and JWT authentication. The school implementation and its authorization limits are described in the README.
+  Spring Boot backend with JPA persistence on MariaDB and JWT authentication, deployed exclusively at school during the project. The implementation and its authorization limits are described in its README.
 
 * [**ReviewHub**](https://github.com/anItalianGeek/reviewhub)
   Angular frontend for bookings, rooms, subjects and administration.
@@ -159,19 +162,17 @@ Production databases, multi-platform integrations, legacy constraints, real user
 
 Most of what I work on today lives in the section at the top of this page.
 
-The repositories below are where I learned how to get here.
+The archived repositories on this profile are where I learned how to get here.
 
 ---
 
 ## `stack`
 
-|                         |                                                            |
-| ----------------------- | ---------------------------------------------------------- |
-| **Backend**             | Java · Spring Boot · Jakarta EE · C# / .NET · Python · PHP |
-| **Frontend**            | Angular · TypeScript · JavaScript · HTML · CSS             |
-| **Data**                | MySQL · MariaDB · SQL Server · MongoDB                     |
-| **Infra**               | Linux · Docker · Tomcat · Apache · Git                     |
-| **Closer to the metal** | C · x86 assembly · Arduino / ESP32                         |
+| Context | Technologies |
+| ---------------------------------- | ------------------------------------------------------------------ |
+| **Current work focus**             | Java · Spring Boot · Jakarta EE · Tomcat · MySQL · SQL Server · REST & SysAid integrations |
+| **Visible in public projects**     | C# / ASP.NET Core · Angular · TypeScript · JavaScript · MariaDB · Java Swing · 8086 assembly |
+| **Other tools & interests**        | Docker · Linux · Apache · MongoDB · Python · PHP · C · Git · HTML / CSS · Arduino / ESP32 |
 
 ---
 
@@ -182,5 +183,4 @@ The repositories below are where I learned how to get here.
 Based in **Veneto, Italy 🇮🇹**
 
 <sub>Yes, the GitHub handle is exactly as literal as it sounds.</sub>  
-<sub>Alternate pronouns: C/C++.</sub>  
 <sub>Today's workaround is tomorrow's critical infrastructure.</sub>
